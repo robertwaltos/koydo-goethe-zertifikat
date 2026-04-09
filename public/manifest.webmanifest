@@ -1,0 +1,16 @@
+{
+  "name": "Koydo Goethe-Zertifikat",
+  "short_name": "Goethe-Zertifikat Prep",
+  "description": "Goethe-Zertifikat German Language Certificate preparation — free practice questions, study guides, and AI-powered analytics.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#059669",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

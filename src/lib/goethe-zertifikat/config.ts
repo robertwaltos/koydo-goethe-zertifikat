@@ -1,0 +1,32 @@
+export const EXAM_CONFIG = {
+  examId: "EXAM024",
+  slug: "goethe-zertifikat",
+  name: "Goethe-Zertifikat",
+  fullName: "Goethe-Zertifikat German Language Certificate",
+  description: "Free Goethe-Zertifikat practice for Lesen, Hören, Schreiben, and Sprechen with AI analytics.",
+  url: "https://goethe-zertifikat.koydo.app",
+  category: "Language proficiency",
+  subcategory: "German certification",
+  country: "Global",
+  region: "Global",
+  languages: ["German"] as const,
+  primaryLanguage: "de",
+  sections: [
+    "Lesen",
+    "Hören",
+    "Schreiben",
+    "Sprechen",
+  ] as const,
+  testFormat: "Paper/Digital" as const,
+  questionFormat: "MCQ, Written Response, Oral" as const,
+  scoring: "A1–C2 levels, Bestanden/Nicht bestanden" as const,
+  themeColor: "#059669",
+  themeColorDark: "#047857",
+  ipRisk: "Medium" as const,
+  ipDisclaimer: "Goethe-Zertifikat® is a registered trademark of the Goethe-Institut. This application is an independent study tool and is not affiliated with or endorsed by the Goethe-Institut.",
+  freemiumGate: { dailyQuestions: 10 },
+  contentReuseCluster: "language_4skills",
+  uiEngineProfile: "4skills_cefr",
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
