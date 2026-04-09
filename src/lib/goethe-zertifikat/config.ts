@@ -1,0 +1,45 @@
+// Goethe-Zertifikat Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM024",
+  slug: "goethe-zertifikat",
+  name: "Goethe-Zertifikat",
+  fullName: "Goethe",
+  alias: "Goethe",
+  family: "Goethe",
+  category: "Language proficiency",
+  subcategory: "German proficiency",
+  country: "Global",
+  region: "Global",
+  languages: ["German"],
+  estimatedAnnualTakers: "Goethe exams ~1M all levels unofficially; per level varies",
+  testingWindow: "Scheduled sessions",
+  schedulePattern: "Multiple sessions/year",
+  ageGroup: "12-45",
+  targetUser: "Language learner",
+  delivery: "Paper/computer mixed",
+  questionTypes: ["Listening","reading","writing","speaking"],
+  adaptivity: "Linear",
+  sections: "Level-specific",
+  scoringMode: "Pass/fail score",
+  essayOrSpeaking: "Speaking + writing",
+  ipRisk: "Medium",
+  contentReuse: "language_4skills",
+  uiEngine: "4skills_cefr",
+  monetizationPotential: "Medium",
+  tier: "Tier 3",
+  launchWave: "Wave 5",
+  themeColor: "#059669",
+  themeColorDark: "#047857",
+  localizationComplexity: "Medium",
+  offlineNeeded: false,
+  mobileFirst: false,
+  locale: "de",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
